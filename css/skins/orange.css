@@ -1,0 +1,49 @@
+.aside .logo a::before{
+    border-top: 4px solid #fa5b0f;
+    border-left: 4px solid #fa5b0f;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #fa5b0f;
+    border-bottom: 4px solid #fa5b0f;
+}
+
+.aside .nav li a:hover, 
+body.dark .aside .nav li a:hover,
+.projek .projek-item-inner .projek-info .projek-tags a,
+.certificate .certificate-item .certificate-info .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.expertise .expertise-item .expertise-item-inner .icon .fa,
+.certificate .certificate-item .certificate-info .icon .fab,
+.lightbox .lightbox-controls .prev-item .fab,
+.contact .contact-info-item .icon .fab,
+.lightbox .lightbox-controls .next-item .fab,
+.expertise .expertise-item .expertise-item-inner .icon .fab,
+.about .about-content .about-text h3 span,
+.certificate .certificate-filter button.active,
+body.dark .certificate .certificate-filter button.active,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active{
+    color: #fa5b0f;
+}
+
+.btn,
+.expertise .expertise-item .expertise-item-inner:hover .icon,
+.about .about-content .timeline .circle-dot,
+.projek .projek-item-inner .projek-img .projek-date,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline-item::before,
+.aside .nav-toggler span,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #fa5b0f;
+}
+
+.certificate .certificate-filter button.active{
+    border-color: #fa5b0f;
+}
